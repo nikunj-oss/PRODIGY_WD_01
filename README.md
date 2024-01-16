@@ -1,6 +1,6 @@
 # PRODIGY INFOTECH INTERNSHIP TASK 1 OF WEB DEVELOPMENT
 
-## Interactive Navigation Bar
+## Responsive Landing Page
 
 
 ### **Overview:**
