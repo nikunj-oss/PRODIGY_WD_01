@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+body.navbar-expanded {
+    padding-top: 100px; /* Adjust this value based on your navbar height */
+}
+
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 2000; /* Increased z-index value */
+    transition: background-color 0.3s ease;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#navbar a:hover {
+    background-color: #555;
+}
+
+
+#navbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+#navbar .nav-link{
+    color: white;
+}
+#navbar .nav-link:hover{
+    color: #ea1c2c;
+}
+#navbar .navbar-brand{
+    color: #ea1c2c;
+    
+}
+#content {
+    margin-top: 80px; /* Adjust based on your initial navbar height */
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out; /* Added opacity transition */
+}
+
+#content-1{
+    margin-top:80px;
+    padding:20px;
+   
+}
+
+
+.fade-in {
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.menu-open #content {
+    margin-top: 300px;
+    transition: margin-top 0.3s ease; /* Added transition for menu-open */
+
+}
+
+
+#ani{
+    animation: fadeIn 1s ;
+}
+
+
+
+
+
