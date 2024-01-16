@@ -1,4 +1,8 @@
 # PRODIGY INFOTECH INTERNSHIP TASK 1 OF WEB DEVELOPMENT
+
+Interactive Navigation Bar
+
+
 **Overview:**
 The interactive navigation bar crafted with HTML, CSS, JavaScript, and Bootstrap offers a feature-rich and engaging user experience. It goes beyond a static navigation setup, incorporating dynamic elements that respond to user actions. Users can expect interactive dropdown menus, smooth transitions, and a visually appealing design, all of which contribute to an enhanced and intuitive navigation journey on the website.
 
